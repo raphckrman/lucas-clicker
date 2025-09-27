@@ -34,10 +34,6 @@ export default new Elysia({ prefix: "/websocket", websocket: { idleTimeout: 20 *
             if (ip) blahajInThreeSecondsPerUsers.set(ip, (blahajInThreeSecondsPerUsers.get(ip) ?? 0) - 1)
         }, 3000);
 
-        if (blahajInThreeSeconds >= 160 || userBlahaj >= 60) {
-            server!.publish("blahaj", `spamhaj`);
-        }
-
         let count = getCount() + 1;
         updateCount(count);
         server!.publish("blahaj", `blahaj_${count}_${body.uuid}`);

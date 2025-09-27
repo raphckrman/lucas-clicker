@@ -1,4 +1,4 @@
-# Blahaj Clicker
+# Lucas Clicker
 A simple site where the aim is to click on a blahaj :3
 
 ## Installation
