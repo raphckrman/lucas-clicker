@@ -51,10 +51,9 @@ h2 {
 
 .blahaj > div {
     width: 400px;
-    height: 400px;
-    background-image: url(/public/assets/blahaj.png);
+    height: 500px;
+    background-image: url(/public/assets/lucas.png);
     background-size: cover;
-
 }
 
 .blahaj.bump {
